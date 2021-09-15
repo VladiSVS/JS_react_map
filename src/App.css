@@ -1,0 +1,13 @@
+h1 {
+  font-size: 1em;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 0;
+}
