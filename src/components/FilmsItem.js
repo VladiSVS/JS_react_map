@@ -21,10 +21,9 @@ class FilmsList extends React.Component {
             <h1>{this.props.duration}</h1>
             <span style={{ margin: "10%" }}>{this.props.rate}</span>
             <div>
-                <p>Crime</p>
-                <p>Drama</p>
+                {this.props.genre}
             </div>
-        </article>;
+        </article >;
     }
 }
 
